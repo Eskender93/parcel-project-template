@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.breed-select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.loader {
+  display: none;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.error {
+  display: none;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.cat-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.cat-info img {
+  width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.cat-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.cat-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
